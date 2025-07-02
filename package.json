@@ -1,0 +1,26 @@
+{
+  "name": "cache-control-demo",
+  "version": "1.0.0",
+  "description": "Express.js server demonstrating different cache control mechanisms for Google Chrome",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "cache-control",
+    "express",
+    "etag",
+    "last-modified",
+    "stale-while-revalidate",
+    "stale-if-error"
+  ],
+  "author": "",
+  "license": "MIT"
+} 
